@@ -1,0 +1,46 @@
+{
+  "name": "Earthquake zen garden",
+  "version": "1.0.0",
+  "description": "A simple code example",
+  "main": "index.js",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "date-fns": "^2.25.0",
+    "query-string": "^7.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "scripts": {
+    "test": "echo tests have not yet been added",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bspears/bspears.github.io.git"
+  },
+  "author": "Ben Spears",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bspears/bspears.github.io/issues"
+  },
+  "homepage": "https://github.com/bspears/bspears.github.io#readme"
+}

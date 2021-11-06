@@ -1,0 +1,6 @@
+@import "./colors.scss";
+
+@mixin header-styling() {
+    background-color: $color-light-grey;
+    color: $color-grey
+}

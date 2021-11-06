@@ -1,0 +1,30 @@
+.feature-detail {
+    padding: 16px 30%;
+
+    .title {
+        text-align: center;
+    }
+
+    .feature-fields {
+        margin: 0 auto;
+        min-width: 300px;
+
+        .field {
+            display: flex;
+            justify-content: space-between;
+            padding-bottom: 10px;
+            text-align: left;
+            
+
+            .field-name {
+                min-width: 200px;
+                font-weight: bold;
+            }
+
+            .field-value {
+                min-width: 300px;
+                text-align: left;
+            }
+        }
+    }
+}

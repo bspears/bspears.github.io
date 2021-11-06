@@ -1,0 +1,42 @@
+.profile {
+    padding: 16px 10%;
+
+    .title {
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+
+    .profile-main {
+        display: flex;
+        justify-content: center;
+
+        .avatar-container {
+            width: 25%;
+            padding: 0 16px;
+            
+            .avatar {
+                max-width: 100%;
+            }
+        }
+    
+        .profile-details {
+            width: 35%;
+
+            .field {
+                display: flex;
+                justify-content: space-between;
+                padding-bottom: 10px; 
+
+                .field-name {
+                    font-weight: bold;
+                }
+
+                .field-value {
+                    width: 60%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

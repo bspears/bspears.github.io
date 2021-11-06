@@ -1,0 +1,17 @@
+@import "../../styles/patterns.scss";
+
+.app-header {
+    @include header-styling;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+    .logo {
+        width: 40px;
+    }
+
+    .view-title {
+        font-weight: bold;
+        font-size: 35px;
+    }
+}
